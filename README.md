@@ -6,14 +6,13 @@ When the main.py file is executed, the first thing the program does is read and 
 
 The packages are then sorted into one of two trucks based first on any special instructions (for example "these two packages are to be delivered together" or  "must be delivered after/before a certain time") and then the remaining spaces are filled by packages relavent to the loaded packages. Once the trucks are fully loaded, Dijkstra's shortest path algorithm is run and each truck is then given a route that allows them to deliver their packages in a fast and efficient manner. When the program runs, all of this is calculated and the user is shown the status of packages at the hub, in Truck 1, and in Truck 2. The user is then allowed to interact with the application by using one of several features.
 
-![Program Startup](imgs/program_start.jpg "Program on start-up")
-## Features
-	• Advance Time
-    • Get Truck Mileages
-    • Get Specific Package Information
-    • Get Status of All Packages
-### Advance Time
-The application contains four different commands that allow the user to advance time by different increments. The application can be advanced by 30 minutes, 1 hour, 2 hours, or until all packages have been delivered.
+![Program Startup](imgs/program_startup.jpg "Program on start-up")
+### Features
+ • Advance Time
+ • Get Truck Mileages
+ • Get Specific Package Information
+ • Get Status of All Packages
+#### Advance Time
 
 ![Half-hour Increment](imgs/thirty_increment.jpg "Program after 30 minute increment by user")
 ### Get Truck Mileages
