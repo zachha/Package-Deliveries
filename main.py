@@ -549,7 +549,7 @@ def get_user_input():
     print("To get the mileage of each truck and the total mileage, type 'miles' then hit enter")
     print("To get all package information for a specific package, type a package ID number (0 - 40) then hit enter")
     print("To get the status of all packages in order of ID, type 'status' then hit enter")
-    print("To exit the program, type 'exit' then")
+    print("To exit the program, type 'exit' then hit enter")
     print()
     user_input = input()
 

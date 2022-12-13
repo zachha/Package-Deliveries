@@ -69,7 +69,7 @@ class Graph:
                     continue
         return
 
-    # I incorporated a Priority Queue into Djikstra's Shortest Path algorithm to increase the efficiency a bit
+    # I incorporated a Priority Queue into Dijkstra's Shortest Path algorithm to increase the efficiency a bit
     def dijkstra_algorithm(self, location_vertex, truck):
         # Priority Queue is created using a max size equal to the number of locations in the graph
         unvisited_queue = PriorityQueue(maxsize = len(self.vertices))
